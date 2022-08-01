@@ -9,6 +9,7 @@ import About from './../About/About'
 
 import './../../components/App/App.css'
 import NavBar from '../NavBar/NavBar';
+import Blogs from '../Blogs/Blogs';
 
 
 const App = () => {
@@ -26,7 +27,7 @@ const App = () => {
             <Route path="/Skills" element={<Skills />} />
             <Route path="/Projects" element={<Projects />} />
             <Route path="/Contact" element={<Contact />} />
-
+            <Route path="/Blogs" element={<Blogs/>} />
           </Routes>
 
 

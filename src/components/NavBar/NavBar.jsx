@@ -23,6 +23,8 @@ export class NavBar extends Component {
         const projectsClass = 'active-item';
         const skillClass = 'active-item';
         const contactClass = 'active-item';
+        const blogsClass = 'active-item';
+
         return (
 
 
@@ -31,7 +33,7 @@ export class NavBar extends Component {
                 <Menu>
                     {/* <a id="home" className="menu-item" href="/">Home</a> */}
  
-            <Link  to="/"  className= { `menu-item  ${homeClass} `}>
+                    <Link  to="/"  className= { `menu-item  ${homeClass} `}>
                         Home 
                     </Link>
                     <Link  to="/about"  className= { `menu-item  ${aboutClass} `}>
@@ -43,10 +45,14 @@ export class NavBar extends Component {
                     <Link  to="/skills"  className= { `menu-item  ${skillClass} `}>
                         Skills 
                     </Link>
+                    <Link  to="/blogs"  className= { `menu-item  ${blogsClass} `}>
+                        Blogs 
+                    </Link>
                     <Link  to="/contact"  className= { `menu-item  ${contactClass} `}>
                         Contacts 
                     </Link>
                     
+                   
 
                 </Menu>
 
