@@ -1,25 +1,14 @@
-.about-page {
-    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
- }
-
 .about-main {
-
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center; 
-    /* text-align: center; */
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     padding: 60px 80px 80px 80px;
     
 }
 
-.about-main-left 
-.about-main-right{
-
-    
+.about-main-left,
+.about-main-right {
     width: 50%;
-
 }
 
 .about-main-right {
@@ -28,12 +17,59 @@
 }
 
 .about-main-left {
-
-    display: flex
-    ;
-    justify-content: center;
-    justify-items: center;
+    display: flex;
     flex-direction: column;
-
+    justify-content: center;
 }
 
+.about-link-element {
+    color: #000;
+}
+
+.about-sub-head {
+    margin: 0;
+}
+
+.about-details {
+    margin: 10px 0 32px 0;
+}
+
+.about-anime {
+    width: 520px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.about-vector {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+    .vector-frame {
+        width: 90%;
+    }
+
+    .about-head {
+        width: 80%;
+    }
+
+    .about-head > p {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+
+    .about-main {
+        padding: 50px 32px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .about-main-left,
+    .about-main-right {
+        width: 100%;
+    }
+}

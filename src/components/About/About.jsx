@@ -3,17 +3,18 @@ import './../App/App.css'
 // import './../Header/Header'
 import Header from './../Header/Header'
 
-import './../About/About.css'
+import './../About/About.css' 
+
 // import React from 'react'
 
 import anime from './../../assets/about_anime.gif' 
 const About = () => {
   return (
-    <div className='about-page'>
+    <div className='section-container'>
       <Header heading=" About Me "
         details="  I am a Full Stack Web Developer By Profession And  Security Researcher By Passion 
        "
-
+          
       />
 
       <div className="about-main">
@@ -21,7 +22,7 @@ const About = () => {
         <div className="about-main-left">
           {/*  For Left Part Links n ALL */}
 
-          <h3 className="about-sub-headd">
+          <h3 className="about-sub-head">
             Web Developer
           </h3>
           <p className='about-details'>
