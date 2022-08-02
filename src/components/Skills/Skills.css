@@ -1,0 +1,17 @@
+
+.skill-card-conatainer {
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 80px 20px ;
+}
+
+.skill {
+
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+}

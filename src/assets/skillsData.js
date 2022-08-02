@@ -23,20 +23,10 @@ export const skillList = [
         skillName: 'NodeJS',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
     },
-    {
-        skillName: 'TypeScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/ts.png',
-    },
+    
     {
         skillName: 'Java',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/java.png',
     },
-    {
-        skillName: 'C#',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/cs.png',
-    },
-    {
-        skillName: 'MongoDB',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/mongo.png',
-    },
+   
 ];

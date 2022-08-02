@@ -4,7 +4,7 @@ import './../Blogs/Blogs.css'
 
 function Blogs() {
   return (
-    <div>Blogs By Abhi </div>
+    <div  className='section-container'>Blogs By Abhi </div>
   )
 }
 

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './../App/App.css'
 function Projects() {
   return (
-    <div>Projects</div>
+    <div className='section-container' >Projects</div>
   )
 }
 
