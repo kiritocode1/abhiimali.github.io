@@ -12,7 +12,7 @@ function Home() {
 
       <div className='header-text'>
         <h1>  Hi Welcome To My Portfolio </h1>
-        <p > This Is Abhijit Mali   </p>   
+        <p > This Is Abhijit Mali / ABHIMALI   </p>   
           <p className='anim-text'>
             <TextLoop> 
               <span>   Freelance Security Researcher </span>
